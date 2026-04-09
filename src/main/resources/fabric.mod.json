@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aurix-fabric",
+  "version": "${version}",
+  "name": "Aurix Fabric",
+  "description": "A quiet AI chat companion for Minecraft chat",
+  "authors": ["凌晨"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.aurix.AurixClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
